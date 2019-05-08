@@ -1,0 +1,282 @@
+body{
+	background: 	#FFE4C4;
+	
+}
+
+
+.text {
+	margin-top: 25px;
+}
+
+
+.image {
+	position: relative;
+	margin-bottom: 20px;
+	overflow: hidden;
+}
+img{
+	position: relative;
+	transition: all 0.4s;
+}
+.mask{
+	position:absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+}
+
+.mask, .mask a,.mask p,.mask h4{
+	transition: all 0.4s;
+}
+.mask a,.mask p,.mask h4{
+	position: relative;
+}
+
+.mask h4 {
+	padding:10px 0;
+	color: #fff;
+}
+.mask p{
+	color: #fff;
+	padding: 0 20px;
+}
+
+.effect1 .mask{
+	background-color:#f1c40f;
+	left: -400px;
+}
+.effect1:hover .mask{
+	left:0px;
+}
+.effect1 img{
+	left:0;
+}
+.effect1:hover img{
+	left: 300px;
+}
+.effect1 h4{
+	background-color: #e0b210;
+}
+.effect2 .mask{
+	background-color: rgba(142, 68, 173, 0.3);
+	opacity: 0;
+	visibility: hidden;
+}
+.effect2:hover .mask{
+	opacity: 1;
+	visibility: visible;
+	
+}
+.effect2 h4{
+	background-color: rgba(155, 89, 182, 0.5);
+	top: -50px;
+	opacity: 0;
+	visibility: hidden;
+}
+.effect2:hover h4{
+	top:0px;
+	opacity: 1;
+	visibility: visible;
+}
+.effect2 p{
+	top: 50px;
+	opacity: 0;
+	visibility: hidden;
+}
+.effect2:hover p{
+	top: 0;
+	opacity: 1;
+	visibility: visible;
+}
+.effect2 img{
+	transform: scale(1);
+}
+
+.effect2:hover img{
+	transform: scale(1.2);
+}
+
+.effect3 .mask{
+	background-color: rgba(52,152,219,0.55);
+	left: -500px;
+	opacity: 0;
+	visibility: hidden;
+}
+.effect3:hover .mask{
+	left: 0;
+	opacity: 1;
+	visibility: visible;
+
+}
+.effect3 h4{
+	background-color: rgba(41,128,185, 0.68);
+	transform: scale(0);
+}
+.effect3:hover h4{
+	transform: scale(1);
+	transition-delay: 0.2s;
+
+}
+.effect3 p{
+	transform: scale(0);
+}
+.effect3:hover p{
+	transform: scale(1);
+	transition-delay: 0.4s;
+}
+.effect3 a{
+	transform: scale(0);
+	display: inline-block;
+}
+.effect3:hover a{
+	transform: scale(1);
+	transition-delay: 0.6s;
+}
+
+.effect3 img{
+	transform: scale(1);
+}
+.effect3:hover img{
+	transform: scale(1.2);
+}
+
+.effect4 .mask{
+	background-color: rgba(26, 188, 156, 0.58);
+	transform: rotate(45deg);
+	left: 300px;
+	opacity: 0;
+	visibility: hidden;
+}
+.effect4:hover .mask{
+	transform: rotate(0);
+	left: 0;
+	opacity: 1;
+	visibility: visible;
+
+}
+.effect4 h4{
+	background-color: rgba(22, 160, 133, 0.75);
+	top: -50px;
+	opacity: 0;
+	visibility: hidden;
+}
+
+.effect4:hover h4{
+	top: 0;
+	opacity: 1;
+	visibility: visible;
+	transition-delay: 0.5s;
+
+}
+
+.effect4 p{
+	left: 300px;
+	transform: rotate(45deg);
+}
+.effect4:hover p{
+	left: 0;
+	transform: rotate(0);
+	transition-delay: 0.4s;
+}
+
+.effect4 img{
+	transform: scale(1);
+}
+.effect4:hover img{
+	transform: scale(1.2);
+}
+
+.mask h4{
+	font-size: 30px;
+}
+
+.mask p{
+	font-size:22px;
+}
+
+@media only screen and (max-width:1200px ){
+	.mask h4{
+		font-size: 24px;
+	}
+	.mask p {
+		font-size: 18px;
+	}
+
+}
+
+@media only screen and (max-width: 993px){
+	.mask h4{
+		font-size: 18px;
+	}
+
+	.mask p{
+		font-size: 14px;
+	}
+}
+
+@media only screen and (max-width: 768px){
+	.mask h4{
+		font-size: 38px;
+	}
+
+	.mask p{
+		font-size: 30px;
+	}
+}
+
+@media only screen and (max-width: 450px){
+	.mask h4{
+		font-size: 30px;
+	}
+	.mask p{
+		font-size: 22px;
+	}
+}
+
+@media only screen and (max-width: 340px){
+
+	.mask h4{
+		font-size: 26px;
+	}
+	.mask p{
+		font-size: 18px;
+	}
+
+}
+
+@media only screen and (max-width: 290px){
+	.mask h4{
+		font-size: 22px;
+	}
+	.mask p{
+		font-size: 14px;
+	}
+}
+
+.lower {
+	text-align: center;
+	margin: 50px;
+	padding: 50px;
+}
+
+.lower ul {
+	text-align: center;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+} 
+
+.lower ul li{
+	display: inline-block;
+}
+
+.lower a{
+	text-decoration: none;
+	padding:15px;
+	font-size:17px;
+}
+
+.lower a:hover {
+	color: red;
+}
+

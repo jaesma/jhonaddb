@@ -1,0 +1,1 @@
+alert("Itapat mo lang 'yung mouse sa bawat picture, bobo.")
